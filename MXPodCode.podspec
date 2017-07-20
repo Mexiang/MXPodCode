@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MXPodCode'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MXPodCode.'
+  s.summary          = '首次创建pod 测试私有库 pod引入.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +30,18 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MXPodCode/Classes/**/*.{h,m}'
+    s.subspec 'A' do |a|
+    a.source_files = 'MXPodCode/Classes/A/*.{h,m}'
+    end
+
+    s.subspec 'B' do |b|
+    b.source_files = 'MXPodCode/Classes/B/*.{h,m}'
+    end
+
+    s.subspec 'C' do |c|
+    c.source_files = 'MXPodCode/Classes/C/*.{h,m}'
+    end
+
 
   # s.resource_bundles = {
   #   'MXPodCode' => ['MXPodCode/Assets/*.png']

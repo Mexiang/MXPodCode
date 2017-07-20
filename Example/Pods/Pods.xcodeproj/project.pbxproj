@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0C6FECD8A08A2009264E32716C6B2156 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3E894C6B6BB8417704F0E2A0E66F88CC /* MXB.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E6E35F5854667BBD49953576327C02 /* MXB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B494295BA57B0DF31DAB50EFD4F1BA9 /* MXC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2961511A88F04347F0368B264ABC28 /* MXC.m */; };
+		3E894C6B6BB8417704F0E2A0E66F88CC /* MXB.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3DE5DB93DE6DA2368C30088446F952 /* MXB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B494295BA57B0DF31DAB50EFD4F1BA9 /* MXC.m in Sources */ = {isa = PBXBuildFile; fileRef = C658A7D42BED9868BF5A4F75FEFAA0E5 /* MXC.m */; };
 		631A74F1D3CA52D29207C168E579A8D0 /* Pods-MXPodCode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC3CA9174D876A5543CC15CA226C301 /* Pods-MXPodCode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A1A0016E190CBCEE45403FB155A2E0D /* MXC.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BF14F62A1ABC9775AC3A2FD4C28493 /* MXC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A80F9B5E51197C38E8913FF3FFF5871C /* MXA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2DD83B1A7AAB94D288546EB706FDE1 /* MXA.m */; };
-		B186965A6C5139FB122DA793F2F76D68 /* MXB.m in Sources */ = {isa = PBXBuildFile; fileRef = B61B42867AA2746C337ED3ABA114850E /* MXB.m */; };
-		C0E698575C52F3082146EF8BD8DEC290 /* MXA.h in Headers */ = {isa = PBXBuildFile; fileRef = 388F664441663EE16A03A1A11B1C9A3D /* MXA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A1A0016E190CBCEE45403FB155A2E0D /* MXC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBBAF664B584829E50B6A8F3C04FA09 /* MXC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A80F9B5E51197C38E8913FF3FFF5871C /* MXA.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D0D86DD1AAD2645CE3155C8A0F8AB5 /* MXA.m */; };
+		B186965A6C5139FB122DA793F2F76D68 /* MXB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A381818A22B2C0689B2692D2349CBAC /* MXB.m */; };
+		C0E698575C52F3082146EF8BD8DEC290 /* MXA.h in Headers */ = {isa = PBXBuildFile; fileRef = 09EEB0FBBE26D0096699BCA0F3E7F46A /* MXA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C59F8C177F8FF06EA4F4DD61F4476FCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CBF6035C54637E3EDF4FDC2C1C4308D2 /* MXPodCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49509DFF6D3ADACB954C882395232A02 /* MXPodCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF6035C54637E3EDF4FDC2C1C4308D2 /* MXPodCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D2AEAAECAC4E77108930BD24993395 /* MXPodCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7E9BF81E7A413C467A78E8F927C5A7D /* Pods-MXPodCode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B333CF12901C2783C23139FBDD4D966D /* Pods-MXPodCode_Tests-dummy.m */; };
-		E76137F529A17E02B015D2E5C8DD53DC /* MXPodCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E32E2D8D198DB74320C15109FA310F6C /* MXPodCode-dummy.m */; };
+		E76137F529A17E02B015D2E5C8DD53DC /* MXPodCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44495DF9178AF3F5517186ADF2A7F79A /* MXPodCode-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,32 +32,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09EEB0FBBE26D0096699BCA0F3E7F46A /* MXA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MXA.h; sourceTree = "<group>"; };
+		0BF3E5CDBDE05107DF174ECD303264C8 /* MXPodCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXPodCode.xcconfig; sourceTree = "<group>"; };
 		0F8C61E92DBD3A2AFED97272D0D8698C /* Pods-MXPodCode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXPodCode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		14F590B89DA0D054CDF1142CA41C92B4 /* Pods-MXPodCode_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXPodCode_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1C2DD83B1A7AAB94D288546EB706FDE1 /* MXA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MXA.m; sourceTree = "<group>"; };
-		22E6E35F5854667BBD49953576327C02 /* MXB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MXB.h; sourceTree = "<group>"; };
-		2A9C96BAE4FFBF5BC116378EAC9A52B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		388F664441663EE16A03A1A11B1C9A3D /* MXA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MXA.h; sourceTree = "<group>"; };
+		2EAC5DAE6F0A0B70A3438774EFA77053 /* MXPodCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MXPodCode.modulemap; sourceTree = "<group>"; };
+		36D2AEAAECAC4E77108930BD24993395 /* MXPodCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXPodCode-umbrella.h"; sourceTree = "<group>"; };
 		3F78D8007AE56A7E84DA8B67F11F2262 /* Pods-MXPodCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXPodCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		49509DFF6D3ADACB954C882395232A02 /* MXPodCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXPodCode-umbrella.h"; sourceTree = "<group>"; };
+		3FBBAF664B584829E50B6A8F3C04FA09 /* MXC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MXC.h; sourceTree = "<group>"; };
+		44495DF9178AF3F5517186ADF2A7F79A /* MXPodCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXPodCode-dummy.m"; sourceTree = "<group>"; };
+		4C8B765790D42C201FB1AD7158CFE127 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D5F2C94A057A51430374DD1D35CD56A /* Pods_MXPodCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MXPodCode_Tests.framework; path = "Pods-MXPodCode_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		545AF24D7A0F6C737CC918B4011BA24E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64BF14F62A1ABC9775AC3A2FD4C28493 /* MXC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MXC.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D6677B1133AFF1BA6F6071BEB525D67 /* MXPodCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MXPodCode.framework; path = MXPodCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D0D86DD1AAD2645CE3155C8A0F8AB5 /* MXA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MXA.m; sourceTree = "<group>"; };
 		781380311862A349874282FF1C335D34 /* Pods-MXPodCode_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXPodCode_Tests-resources.sh"; sourceTree = "<group>"; };
-		8683E79D436E7555B3B3A0309B413412 /* MXPodCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXPodCode-prefix.pch"; sourceTree = "<group>"; };
+		7A381818A22B2C0689B2692D2349CBAC /* MXB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MXB.m; sourceTree = "<group>"; };
+		7B3DE5DB93DE6DA2368C30088446F952 /* MXB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MXB.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D2961511A88F04347F0368B264ABC28 /* MXC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MXC.m; sourceTree = "<group>"; };
 		A3161CA90BF43808877FD964D53DD96C /* Pods-MXPodCode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXPodCode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B333CF12901C2783C23139FBDD4D966D /* Pods-MXPodCode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXPodCode_Tests-dummy.m"; sourceTree = "<group>"; };
-		B61B42867AA2746C337ED3ABA114850E /* MXB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MXB.m; sourceTree = "<group>"; };
-		BBE932DA06262D971FD444035B58178A /* MXPodCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXPodCode.xcconfig; sourceTree = "<group>"; };
+		C658A7D42BED9868BF5A4F75FEFAA0E5 /* MXC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MXC.m; sourceTree = "<group>"; };
 		C87BCA560D219751136E3262C5F4FA34 /* Pods-MXPodCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXPodCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DD933330191C03B2C7CEAADBCE89B9EC /* MXPodCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MXPodCode.modulemap; sourceTree = "<group>"; };
+		CEBA0CA484CFCE867DF87F52C921DC3A /* MXPodCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXPodCode-prefix.pch"; sourceTree = "<group>"; };
 		DEC3CA9174D876A5543CC15CA226C301 /* Pods-MXPodCode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MXPodCode_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DF030D3BF84BE0B1BD99119A429257D7 /* Pods-MXPodCode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MXPodCode_Tests.modulemap"; sourceTree = "<group>"; };
-		E32E2D8D198DB74320C15109FA310F6C /* MXPodCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXPodCode-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,28 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		095338F36D2ED3D5DAFD81E653F20222 /* B */ = {
+		06DB3F29A1E5383EC2D2FD052F923529 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				22E6E35F5854667BBD49953576327C02 /* MXB.h */,
-				B61B42867AA2746C337ED3ABA114850E /* MXB.m */,
+				49CABA9E19DA0F51C8CF0C9661E60B13 /* MXPodCode */,
+			);
+			name = A;
+			sourceTree = "<group>";
+		};
+		107F2C9919CFC69BD351797AE3576C4A /* B */ = {
+			isa = PBXGroup;
+			children = (
+				7B3DE5DB93DE6DA2368C30088446F952 /* MXB.h */,
+				7A381818A22B2C0689B2692D2349CBAC /* MXB.m */,
 			);
 			name = B;
 			path = B;
-			sourceTree = "<group>";
-		};
-		144CD6E51AF364E9A2B195E1E11EA8C9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2A9C96BAE4FFBF5BC116378EAC9A52B3 /* Info.plist */,
-				DD933330191C03B2C7CEAADBCE89B9EC /* MXPodCode.modulemap */,
-				BBE932DA06262D971FD444035B58178A /* MXPodCode.xcconfig */,
-				E32E2D8D198DB74320C15109FA310F6C /* MXPodCode-dummy.m */,
-				8683E79D436E7555B3B3A0309B413412 /* MXPodCode-prefix.pch */,
-				49509DFF6D3ADACB954C882395232A02 /* MXPodCode-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MXPodCode";
 			sourceTree = "<group>";
 		};
 		1463EE1571B5BC3A2948CA7E7CF04338 /* Products */ = {
@@ -113,34 +107,74 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F64679ECBF1C895F25C096234972BC8 /* A */ = {
+		25B01A0CD1F5D021B06C5A27B9C396BE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				388F664441663EE16A03A1A11B1C9A3D /* MXA.h */,
-				1C2DD83B1A7AAB94D288546EB706FDE1 /* MXA.m */,
+				4C8B765790D42C201FB1AD7158CFE127 /* Info.plist */,
+				2EAC5DAE6F0A0B70A3438774EFA77053 /* MXPodCode.modulemap */,
+				0BF3E5CDBDE05107DF174ECD303264C8 /* MXPodCode.xcconfig */,
+				44495DF9178AF3F5517186ADF2A7F79A /* MXPodCode-dummy.m */,
+				CEBA0CA484CFCE867DF87F52C921DC3A /* MXPodCode-prefix.pch */,
+				36D2AEAAECAC4E77108930BD24993395 /* MXPodCode-umbrella.h */,
 			);
-			name = A;
-			path = A;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MXPodCode";
 			sourceTree = "<group>";
 		};
-		212C8A6F351A25ECC1FC636698D86F35 /* C */ = {
+		2763E90783E2A0E03F093067BDF91257 /* MXPodCode */ = {
 			isa = PBXGroup;
 			children = (
-				64BF14F62A1ABC9775AC3A2FD4C28493 /* MXC.h */,
-				9D2961511A88F04347F0368B264ABC28 /* MXC.m */,
+				940415CACBF881BE8570821B71D4C7CB /* Classes */,
 			);
-			name = C;
-			path = C;
+			name = MXPodCode;
+			path = MXPodCode;
 			sourceTree = "<group>";
 		};
-		5F809745DA1D34A70491EBA766A70F22 /* MXPodCode */ = {
+		31377A74CC2E9633F38FB6876442DCD5 /* MXPodCode */ = {
 			isa = PBXGroup;
 			children = (
-				860CA8426ADEB8F51CDC07CF239C523B /* MXPodCode */,
-				144CD6E51AF364E9A2B195E1E11EA8C9 /* Support Files */,
+				E8FE71CC2460AC13400BCC0E8F44848C /* Classes */,
+			);
+			name = MXPodCode;
+			path = MXPodCode;
+			sourceTree = "<group>";
+		};
+		37B7D09B6FAA4A3EDD8AA02B718D211F /* MXPodCode */ = {
+			isa = PBXGroup;
+			children = (
+				06DB3F29A1E5383EC2D2FD052F923529 /* A */,
+				F0882D4472352FDFBCD90C2AB5D00187 /* B */,
+				730DA4ACACF894959AB95044246CF136 /* C */,
+				25B01A0CD1F5D021B06C5A27B9C396BE /* Support Files */,
 			);
 			name = MXPodCode;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		41D743503A98CCF656BB8691DAD3C323 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D9BE4B83B2D19C87C3DC6200E67BA895 /* A */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		49CABA9E19DA0F51C8CF0C9661E60B13 /* MXPodCode */ = {
+			isa = PBXGroup;
+			children = (
+				41D743503A98CCF656BB8691DAD3C323 /* Classes */,
+			);
+			name = MXPodCode;
+			path = MXPodCode;
+			sourceTree = "<group>";
+		};
+		730DA4ACACF894959AB95044246CF136 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				31377A74CC2E9633F38FB6876442DCD5 /* MXPodCode */,
+			);
+			name = C;
 			sourceTree = "<group>";
 		};
 		7D142DEC4746167A7425E77FE4EBD9C1 /* Pods-MXPodCode_Tests */ = {
@@ -173,39 +207,30 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				945E306AF5D1DDFC6A38F6660BB931C7 /* Development Pods */,
+				C43661CCF7896A2045CD298A8CFFBA9F /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				1463EE1571B5BC3A2948CA7E7CF04338 /* Products */,
 				7DB2B26E461B1EE32D9FD1981106E2DA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		860CA8426ADEB8F51CDC07CF239C523B /* MXPodCode */ = {
+		940415CACBF881BE8570821B71D4C7CB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8FFFEA3569CDEAE607B73F9EB9C1D619 /* Classes */,
-			);
-			name = MXPodCode;
-			path = MXPodCode;
-			sourceTree = "<group>";
-		};
-		8FFFEA3569CDEAE607B73F9EB9C1D619 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1F64679ECBF1C895F25C096234972BC8 /* A */,
-				095338F36D2ED3D5DAFD81E653F20222 /* B */,
-				212C8A6F351A25ECC1FC636698D86F35 /* C */,
+				107F2C9919CFC69BD351797AE3576C4A /* B */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		945E306AF5D1DDFC6A38F6660BB931C7 /* Development Pods */ = {
+		B2BCB052CEE3206BE20D385DED5DA98A /* C */ = {
 			isa = PBXGroup;
 			children = (
-				5F809745DA1D34A70491EBA766A70F22 /* MXPodCode */,
+				3FBBAF664B584829E50B6A8F3C04FA09 /* MXC.h */,
+				C658A7D42BED9868BF5A4F75FEFAA0E5 /* MXC.m */,
 			);
-			name = "Development Pods";
+			name = C;
+			path = C;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -216,12 +241,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C43661CCF7896A2045CD298A8CFFBA9F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37B7D09B6FAA4A3EDD8AA02B718D211F /* MXPodCode */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9BE4B83B2D19C87C3DC6200E67BA895 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				09EEB0FBBE26D0096699BCA0F3E7F46A /* MXA.h */,
+				75D0D86DD1AAD2645CE3155C8A0F8AB5 /* MXA.m */,
+			);
+			name = A;
+			path = A;
+			sourceTree = "<group>";
+		};
+		E8FE71CC2460AC13400BCC0E8F44848C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B2BCB052CEE3206BE20D385DED5DA98A /* C */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F0882D4472352FDFBCD90C2AB5D00187 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				2763E90783E2A0E03F093067BDF91257 /* MXPodCode */,
+			);
+			name = B;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,7 +449,7 @@
 		};
 		5A4AF6326A8D5B073F3F69A608A05F2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBE932DA06262D971FD444035B58178A /* MXPodCode.xcconfig */;
+			baseConfigurationReference = 0BF3E5CDBDE05107DF174ECD303264C8 /* MXPodCode.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -421,7 +481,7 @@
 		};
 		821F1ACC89DCDE8C649417EC839B0289 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBE932DA06262D971FD444035B58178A /* MXPodCode.xcconfig */;
+			baseConfigurationReference = 0BF3E5CDBDE05107DF174ECD303264C8 /* MXPodCode.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

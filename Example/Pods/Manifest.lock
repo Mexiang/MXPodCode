@@ -1,5 +1,11 @@
 PODS:
-  - MXPodCode (0.1.0)
+  - MXPodCode (0.1.0):
+    - MXPodCode/A (= 0.1.0)
+    - MXPodCode/B (= 0.1.0)
+    - MXPodCode/C (= 0.1.0)
+  - MXPodCode/A (0.1.0)
+  - MXPodCode/B (0.1.0)
+  - MXPodCode/C (0.1.0)
 
 DEPENDENCIES:
   - MXPodCode (from `../`)
@@ -9,8 +15,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MXPodCode: 02a6740006a9ffd59246315e1bdf2c4fdba1b958
+  MXPodCode: 2128192af6261873154ef1900426d060f96dd18f
 
-PODFILE CHECKSUM: 0f53078dc7d87dd1260d7b9bc66339e7a172eb56
+PODFILE CHECKSUM: e8eb9e4219c1c7772254885bbb8eb7a804e49071
 
 COCOAPODS: 1.2.1
