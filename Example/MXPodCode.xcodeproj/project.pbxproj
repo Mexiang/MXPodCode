@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		419C3EB21F208FE500955438 /* MXA.m in Sources */ = {isa = PBXBuildFile; fileRef = 419C3EB11F208FE500955438 /* MXA.m */; };
+		419C3EB51F208FF000955438 /* MXB.m in Sources */ = {isa = PBXBuildFile; fileRef = 419C3EB41F208FF000955438 /* MXB.m */; };
+		419C3EB81F208FF900955438 /* MXC.m in Sources */ = {isa = PBXBuildFile; fileRef = 419C3EB71F208FF900955438 /* MXC.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -18,6 +21,12 @@
 /* Begin PBXFileReference section */
 		2F2C4B3C7C8E9698C0ED8343 /* Pods_MXPodCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXPodCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A47F7A23AD6B55D67D8B66B /* Pods-MXPodCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXPodCode_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXPodCode_Tests/Pods-MXPodCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		419C3EB01F208FE500955438 /* MXA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXA.h; sourceTree = "<group>"; };
+		419C3EB11F208FE500955438 /* MXA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXA.m; sourceTree = "<group>"; };
+		419C3EB31F208FF000955438 /* MXB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXB.h; sourceTree = "<group>"; };
+		419C3EB41F208FF000955438 /* MXB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXB.m; sourceTree = "<group>"; };
+		419C3EB61F208FF900955438 /* MXC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXC.h; sourceTree = "<group>"; };
+		419C3EB71F208FF900955438 /* MXC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXC.m; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -28,9 +37,9 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		63013AB742D2427940E1DCE1 /* Pods-MXPodCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXPodCode_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXPodCode_Tests/Pods-MXPodCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		746C26A095A841333D98475B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9F8D70AE8C99CD1F0B179519 /* MXPodCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MXPodCode.podspec; path = ../MXPodCode.podspec; sourceTree = "<group>"; };
-		B11154CA0B2801407A2869C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		746C26A095A841333D98475B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9F8D70AE8C99CD1F0B179519 /* MXPodCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MXPodCode.podspec; path = ../MXPodCode.podspec; sourceTree = "<group>"; };
+		B11154CA0B2801407A2869C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
+				419C3EB01F208FE500955438 /* MXA.h */,
+				419C3EB11F208FE500955438 /* MXA.m */,
+				419C3EB31F208FF000955438 /* MXB.h */,
+				419C3EB41F208FF000955438 /* MXB.m */,
+				419C3EB61F208FF900955438 /* MXC.h */,
+				419C3EB71F208FF900955438 /* MXC.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -151,6 +166,7 @@
 				ORGANIZATIONNAME = Mexiang;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						ProvisioningStyle = Manual;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -237,6 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419C3EB81F208FF900955438 /* MXC.m in Sources */,
+				419C3EB51F208FF000955438 /* MXB.m in Sources */,
+				419C3EB21F208FE500955438 /* MXA.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -332,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A47F7A23AD6B55D67D8B66B /* Pods-MXPodCode_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -346,6 +366,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXPodCode_Example.app/MXPodCode_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -355,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63013AB742D2427940E1DCE1 /* Pods-MXPodCode_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -365,6 +387,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXPodCode_Example.app/MXPodCode_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

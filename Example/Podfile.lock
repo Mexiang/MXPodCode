@@ -1,0 +1,16 @@
+PODS:
+  - MXPodCode (0.1.0)
+
+DEPENDENCIES:
+  - MXPodCode (from `../`)
+
+EXTERNAL SOURCES:
+  MXPodCode:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MXPodCode: 02a6740006a9ffd59246315e1bdf2c4fdba1b958
+
+PODFILE CHECKSUM: 0f53078dc7d87dd1260d7b9bc66339e7a172eb56
+
+COCOAPODS: 1.2.1

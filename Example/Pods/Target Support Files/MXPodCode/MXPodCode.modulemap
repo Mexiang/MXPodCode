@@ -1,0 +1,6 @@
+framework module MXPodCode {
+  umbrella header "MXPodCode-umbrella.h"
+
+  export *
+  module * { export * }
+}
